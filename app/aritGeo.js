@@ -5,7 +5,7 @@ module.exports = {
   if(myArray.length === 0) {
       return 0;
     }
-  for(var i = 1; i < myArray.length; i++) {
+  for(var i = 2; i < myArray.length; i++) {
     if(myArray[i + 1] - myArray[i] === diff) {
       return "Arithmetic";
     }
